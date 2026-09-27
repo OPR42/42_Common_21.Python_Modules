@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "matrix-loading"
+version = "1.0.0"
+description = "Module P08 - Loading Programs"
+authors = ["OPR"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+requests = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
